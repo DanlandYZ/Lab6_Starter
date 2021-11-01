@@ -3,46 +3,44 @@
     "@graph": [
         {
             "@type": "Organization",
-            "@id": "https://www.gimmesomeoven.com/#organization",
-            "name": "Gimme Some Oven",
-            "url": "https://www.gimmesomeoven.com/",
+            "@id": "https://joyfoodsunshine.com/#organization",
+            "name": "JoyFoodSunshine",
+            "url": "https://joyfoodsunshine.com/",
             "sameAs": [
-                "https://www.facebook.com/GimmeSomeOvenBlog/",
-                "https://www.instagram.com/gimmesomeoven/",
-                "https://www.linkedin.com/in/aliebright/",
-                "https://www.youtube.com/user/gimmesomeovenblog",
-                "https://www.pinterest.com/gimmesomeoven/",
-                "https://twitter.com/gimmesomeoven"
+                "https://www.facebook.com/joyfoodsunshine/",
+                "https://www.instagram.com/joyfoodsunshine/",
+                "https://www.pinterest.com/joyfoodsunshine/",
+                "https://twitter.com/joyfoodsunshine"
             ],
             "logo": {
                 "@type": "ImageObject",
-                "@id": "https://www.gimmesomeoven.com/#logo",
+                "@id": "https://joyfoodsunshine.com/#logo",
                 "inLanguage": "en-US",
-                "url": "https://www.gimmesomeoven.com/wp-content/uploads/2021/09/Logo-square.png",
-                "contentUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2021/09/Logo-square.png",
-                "width": 410,
-                "height": 410,
-                "caption": "Gimme Some Oven"
+                "url": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+                "contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2017/01/NewLogo.png",
+                "width": 1958,
+                "height": 733,
+                "caption": "JoyFoodSunshine"
             },
             "image": {
-                "@id": "https://www.gimmesomeoven.com/#logo"
+                "@id": "https://joyfoodsunshine.com/#logo"
             }
         },
         {
             "@type": "WebSite",
-            "@id": "https://www.gimmesomeoven.com/#website",
-            "url": "https://www.gimmesomeoven.com/",
-            "name": "Gimme Some Oven",
-            "description": "Celebrating Delicious and Easy Recipes",
+            "@id": "https://joyfoodsunshine.com/#website",
+            "url": "https://joyfoodsunshine.com/",
+            "name": "JoyFoodSunshine",
+            "description": "Recipes for real life.",
             "publisher": {
-                "@id": "https://www.gimmesomeoven.com/#organization"
+                "@id": "https://joyfoodsunshine.com/#organization"
             },
             "potentialAction": [
                 {
                     "@type": "SearchAction",
                     "target": {
                         "@type": "EntryPoint",
-                        "urlTemplate": "https://www.gimmesomeoven.com/?s={search_term_string}"
+                        "urlTemplate": "https://joyfoodsunshine.com/?s={search_term_string}"
                     },
                     "query-input": "required name=search_term_string"
                 }
@@ -51,89 +49,101 @@
         },
         {
             "@type": "ImageObject",
-            "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#primaryimage",
+            "@id": "https://joyfoodsunshine.com/meatballs/#primaryimage",
             "inLanguage": "en-US",
-            "url": "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3.jpg",
-            "contentUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3.jpg",
-            "width": 1392,
-            "height": 2088,
-            "caption": "Baked Chicken Breast Recipe"
+            "url": "https://joyfoodsunshine.com/wp-content/uploads/2021/10/homemade-meatballs-recipe-1.jpg",
+            "contentUrl": "https://joyfoodsunshine.com/wp-content/uploads/2021/10/homemade-meatballs-recipe-1.jpg",
+            "width": 1200,
+            "height": 1200
         },
         {
-            "@type": "WebPage",
-            "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#webpage",
-            "url": "https://www.gimmesomeoven.com/baked-chicken-breast/",
-            "name": "Baked Chicken Breast | Gimme Some Oven",
+            "@type": [
+                "WebPage",
+                "FAQPage"
+            ],
+            "@id": "https://joyfoodsunshine.com/meatballs/#webpage",
+            "url": "https://joyfoodsunshine.com/meatballs/",
+            "name": "Homemade Meatball Recipe - JoyFoodSunshine",
             "isPartOf": {
-                "@id": "https://www.gimmesomeoven.com/#website"
+                "@id": "https://joyfoodsunshine.com/#website"
             },
             "primaryImageOfPage": {
-                "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#primaryimage"
+                "@id": "https://joyfoodsunshine.com/meatballs/#primaryimage"
             },
-            "datePublished": "2018-09-10T09:02:25+00:00",
-            "dateModified": "2021-05-15T14:28:22+00:00",
-            "description": "A simple 5-step method for how to make the most juicy, tender and flavorful baked chicken breasts. It's a total game-changer for how to bake chicken.",
+            "datePublished": "2021-10-16T08:00:00+00:00",
+            "dateModified": "2021-10-09T21:59:46+00:00",
+            "description": "The best homemade meatballs. Delicious & versatile, this meatball recipe is easy to make on the stovetop or baked in the oven.",
             "breadcrumb": {
-                "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#breadcrumb"
+                "@id": "https://joyfoodsunshine.com/meatballs/#breadcrumb"
             },
+            "mainEntity": [
+                {
+                    "@id": "https://joyfoodsunshine.com/meatballs/#faq-question-1632345777755"
+                },
+                {
+                    "@id": "https://joyfoodsunshine.com/meatballs/#faq-question-1632346230536"
+                },
+                {
+                    "@id": "https://joyfoodsunshine.com/meatballs/#faq-question-1632346285037"
+                },
+                {
+                    "@id": "https://joyfoodsunshine.com/meatballs/#faq-question-1632346293530"
+                }
+            ],
             "inLanguage": "en-US",
             "potentialAction": [
                 {
                     "@type": "ReadAction",
                     "target": [
-                        "https://www.gimmesomeoven.com/baked-chicken-breast/"
+                        "https://joyfoodsunshine.com/meatballs/"
                     ]
                 }
             ]
         },
         {
             "@type": "BreadcrumbList",
-            "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#breadcrumb",
+            "@id": "https://joyfoodsunshine.com/meatballs/#breadcrumb",
             "itemListElement": [
                 {
                     "@type": "ListItem",
                     "position": 1,
-                    "name": "Gimme Some Oven",
-                    "item": "https://www.gimmesomeoven.com/"
+                    "name": "Home",
+                    "item": "https://joyfoodsunshine.com/"
                 },
                 {
                     "@type": "ListItem",
                     "position": 2,
-                    "name": "Baked Chicken Breasts"
+                    "name": "Homemade Meatball Recipe"
                 }
             ]
         },
         {
             "@type": "Article",
-            "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#article",
+            "@id": "https://joyfoodsunshine.com/meatballs/#article",
             "isPartOf": {
-                "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#webpage"
+                "@id": "https://joyfoodsunshine.com/meatballs/#webpage"
             },
             "author": {
-                "@id": "https://www.gimmesomeoven.com/#/schema/person/f2ec3b8956be0c3431af79ad7e71d6b5"
+                "@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220"
             },
-            "headline": "Baked Chicken Breasts",
-            "datePublished": "2018-09-10T09:02:25+00:00",
-            "dateModified": "2021-05-15T14:28:22+00:00",
-            "wordCount": 1774,
-            "commentCount": 2997,
+            "headline": "Homemade Meatball Recipe",
+            "datePublished": "2021-10-16T08:00:00+00:00",
+            "dateModified": "2021-10-09T21:59:46+00:00",
+            "wordCount": 1356,
+            "commentCount": 0,
             "publisher": {
-                "@id": "https://www.gimmesomeoven.com/#organization"
+                "@id": "https://joyfoodsunshine.com/#organization"
             },
             "image": {
-                "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#primaryimage"
+                "@id": "https://joyfoodsunshine.com/meatballs/#primaryimage"
             },
-            "thumbnailUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3.jpg",
-            "keywords": [
-                "chicken",
-                "garlic powder",
-                "paprika"
-            ],
+            "thumbnailUrl": "https://joyfoodsunshine.com/wp-content/uploads/2021/10/homemade-meatballs-recipe-1.jpg",
             "articleSection": [
-                "Chicken",
-                "Entrees / Main Dishes",
-                "Featured",
-                "Gluten-free"
+                "Appetizers",
+                "Beef",
+                "Main Dish",
+                "Recipe Videos",
+                "Recipes"
             ],
             "inLanguage": "en-US",
             "potentialAction": [
@@ -141,173 +151,244 @@
                     "@type": "CommentAction",
                     "name": "Comment",
                     "target": [
-                        "https://www.gimmesomeoven.com/baked-chicken-breast/#respond"
+                        "https://joyfoodsunshine.com/meatballs/#respond"
                     ]
                 }
             ]
         },
         {
             "@type": "Person",
-            "@id": "https://www.gimmesomeoven.com/#/schema/person/f2ec3b8956be0c3431af79ad7e71d6b5",
-            "name": "Ali",
+            "@id": "https://joyfoodsunshine.com/#/schema/person/26aa1eec196fcfdeab13ab7a9999d220",
+            "name": "Laura",
             "sameAs": [
-                "https://www.gimmesomeoven.com",
-                "https://twitter.com/gimmesomeoven"
-            ],
-            "url": "https://www.gimmesomeoven.com/author/ali/"
+                "https://joyfoodsunshine.com/about-laura/"
+            ]
         },
         {
-            "@context": "https://schema.org/",
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/meatballs/#faq-question-1632345777755",
+            "position": 1,
+            "url": "https://joyfoodsunshine.com/meatballs/#faq-question-1632345777755",
+            "name": "How do you keep meatballs from falling apart?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Cooking the meatballs using one of these two methods before adding them to your sauce of choice is the best way to ensure they do not fall apart. This way they are nice and browned and hold up very well when you add sauce to serve them!",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/meatballs/#faq-question-1632346230536",
+            "position": 2,
+            "url": "https://joyfoodsunshine.com/meatballs/#faq-question-1632346230536",
+            "name": "Is it better to bake or fry meatballs?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This is purely preference. I prefer to bake the meatballs because they all cook at once and it's less time consuming. ",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/meatballs/#faq-question-1632346285037",
+            "position": 3,
+            "url": "https://joyfoodsunshine.com/meatballs/#faq-question-1632346285037",
+            "name": "Why do you put milk in meatballs?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Milk makes the meatballs moist. ",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Question",
+            "@id": "https://joyfoodsunshine.com/meatballs/#faq-question-1632346293530",
+            "position": 4,
+            "url": "https://joyfoodsunshine.com/meatballs/#faq-question-1632346293530",
+            "name": "What can I use instead of milk in meatballs?",
+            "answerCount": 1,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "I often substitute our favorite pasta sauce in place of milk with great results. ",
+                "inLanguage": "en-US"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@context": "http://schema.org/",
             "@type": "Recipe",
-            "name": "Baked Chicken Breasts",
-            "description": "Learn how to make juicy, tender, delicious baked chicken breasts with this simple 5-step method.",
+            "name": "Best Homemade Meatballs Recipe",
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "description": "The best homemade meatballs. Easy to make and incredibly versatile, this meatball recipe will become a family favorite. Learn how to make meatballs either on the stovetop or baked in the oven to serve a variety of ways - over pasta, as an appetizer, etc.",
+            "datePublished": "2021-10-16T02:00:00+00:00",
             "image": [
-                "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3-225x225.jpg",
-                "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3-260x195.jpg",
-                "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3-320x180.jpg",
-                "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3.jpg"
+                "https://joyfoodsunshine.com/wp-content/uploads/2021/10/homemade-meatballs-recipe-4.jpg",
+                "https://joyfoodsunshine.com/wp-content/uploads/2021/10/homemade-meatballs-recipe-4-500x500.jpg",
+                "https://joyfoodsunshine.com/wp-content/uploads/2021/10/homemade-meatballs-recipe-4-500x375.jpg",
+                "https://joyfoodsunshine.com/wp-content/uploads/2021/10/homemade-meatballs-recipe-4-480x270.jpg"
             ],
-            "url": "https://www.gimmesomeoven.com/baked-chicken-breast/",
+            "video": {
+                "name": "Homemade Meatballs Recipe",
+                "description": "The best homemade meatballs. Easy to make and incredibly versatile, this meatball recipe will become a family favorite. Learn how to make meatballs either on the stovetop or baked in the oven to serve a variety of ways - over pasta, as an appetizer, etc.",
+                "thumbnailUrl": "https://mediavine-res.cloudinary.com/image/upload/s--388ELSR8--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1633730668/hhfvynyvdfhb89hxid6e.jpg",
+                "contentUrl": "https://embed.mediavine.com/videos/lgsfpkknjmjjbgsd4iyo",
+                "uploadDate": "2021-10-08T22:05:19+00:00",
+                "duration": "PT60S",
+                "@type": "VideoObject"
+            },
+            "recipeYield": [
+                "24",
+                "24 Meatballs"
+            ],
+            "prepTime": "PT10M",
+            "cookTime": "PT15M",
+            "totalTime": "PT25M",
             "recipeIngredient": [
-                "4 boneless skinless chicken breasts, pounded to even thickness and brined in saltwater (*see easy instructions below)",
-                "1 Tablespoon melted butter or olive oil",
-                "1 teaspoon\u00a0kosher salt",
-                "1/2 teaspoon freshly-cracked\u00a0black pepper",
-                "1/2 teaspoon\u00a0garlic powder",
-                "1/2 teaspoon paprika (I prefer\u00a0smoked paprika)"
+                "1 lb ground beef",
+                "1  egg (whisked)",
+                "\u00bd cup whole milk (or pasta sauce)",
+                "1 TBS Worcestershire Sauce",
+                "1 tsp sea salt",
+                "\u00bc tsp freshly ground black pepper",
+                "1 tsp minced garlic",
+                "2 TBS finely diced onion",
+                "\u00bd cup breadcrumbs (or quick cooking oatmeal)",
+                "\u00bd cup parmesan cheese",
+                "Olive oil (for frying)",
+                "Optional: \u00bc cup finely diced fresh basil or parsley"
             ],
             "recipeInstructions": [
                 {
-                    "@type": "HowToStep",
-                    "text": "To brine your chicken breasts,\u00a0fill a large bowl with 1 quart of warm water and 1/4 cup kosher salt. \u00a0Stir to combine until most of the salt is absorbed. \u00a0Add the chicken breasts and let them sit in the mixture to brine for 15 minutes. \u00a0Or you can also\u00a0also cover the\u00a0bowl and refrigerate for up to 6 hours. \u00a0Remove the chicken breasts from the brine, rinse them\u00a0with cold water, then pat them\u00a0dry with some paper towels. \u00a0(However, if\u00a0the\u00a0chicken breasts you purchased have already been pre-brined in a sodium solution, skip this step.)",
-                    "name": "Brine the chicken",
-                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-1"
+                    "@type": "HowToSection",
+                    "name": "Make the meatball mixture:",
+                    "itemListElement": [
+                        {
+                            "@type": "HowToStep",
+                            "text": "In a large bowl combine ground beef, egg, milk and Worcestershire sauce.",
+                            "name": "In a large bowl combine ground beef, egg, milk and Worcestershire sauce.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-0-0"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "Add breadcrumbs, parmesan, sea salt, pepper, garlic and onion and stir until evenly distributed.",
+                            "name": "Add breadcrumbs, parmesan, sea salt, pepper, garlic and onion and stir until evenly distributed.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-0-1"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "Use a small cookie scoop or measuring spoon and measure out 1 TBS portions of the meatball mixture, then roll it with your hands.",
+                            "name": "Use a small cookie scoop or measuring spoon and measure out 1 TBS portions of the meatball mixture, then roll it with your hands.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-0-2"
+                        }
+                    ]
                 },
                 {
-                    "@type": "HowToStep",
-                    "text": "Preheat\u00a0oven to 450\u00b0F.",
-                    "name": "Heat the oven",
-                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-2"
+                    "@type": "HowToSection",
+                    "name": "To cook on the stovetop:",
+                    "itemListElement": [
+                        {
+                            "@type": "HowToStep",
+                            "text": "Add 1-2 TBS olive oil to a nonstick fry pan and turn heat to medium.",
+                            "name": "Add 1-2 TBS olive oil to a nonstick fry pan and turn heat to medium.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-1-0"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "Add half of the meatballs (12) and cover.",
+                            "name": "Add half of the meatballs (12) and cover.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-1-1"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "Cook, covered, on one side for 4-5 minutes or until they are golden-brown.",
+                            "name": "Cook, covered, on one side for 4-5 minutes or until they are golden-brown.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-1-2"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "Remove lid and flip the meatballs. Cook for another 4-5 minutes until meatballs are golden brown and the internal temperature is 160 degrees F.",
+                            "name": "Remove lid and flip the meatballs. Cook for another 4-5 minutes until meatballs are golden brown and the internal temperature is 160 degrees F.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-1-3"
+                        }
+                    ]
                 },
                 {
-                    "@type": "HowToStep",
-                    "text": "Place the chicken breasts in a single layer in a large baking dish*. \u00a0Brush on both sides (turning once) evenly with the melted butter or olive oil.\u00a0 In a separate small bowl, whisk the salt, pepper, garlic powder and paprika until combined. \u00a0Then sprinkle the mixture evenly over the chicken on both sides.",
-                    "name": "Season the chicken",
-                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-3"
-                },
-                {
-                    "@type": "HowToStep",
-                    "text": "Bake for 15-18* minutes, or until the chicken is cooked through and no longer pink.\u00a0 Cooking time will depend on the thickness of the chicken breasts, so I recommend using a cooking thermometer to know exactly when it is fully cooked.\u00a0 The thickest part of the breast, it should be 165\u00b0F.\u00a0 (Or, if you want the chicken to be a little bit browned and crispier on top, you can turn the broiler on high\u00a0for the final 3-5 minutes and broil the chicken until it is cooked through and\u00a0golden on top. \u00a0Keep a close eye on the chicken so that it does not overcook and/or burn.)",
-                    "name": "Bake",
-                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-4"
-                },
-                {
-                    "@type": "HowToStep",
-                    "text": "Once the chicken is cooked, remove the pan from the oven, transfer the chicken to a clean plate, and loosely\u00a0tent the\u00a0plate with aluminum foil. \u00a0Let the chicken rest for at least 5-10 minutes.",
-                    "name": "Rest the chicken",
-                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-5"
-                },
-                {
-                    "@type": "HowToStep",
-                    "text": "Serve warm.\u00a0\u00a0Or, refrigerate in a sealed container for up to 3 days, or freeze for up to 3 months.",
-                    "name": "Serve",
-                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-6"
+                    "@type": "HowToSection",
+                    "name": "To cook in the oven:",
+                    "itemListElement": [
+                        {
+                            "@type": "HowToStep",
+                            "text": "Preheat oven to 400 degrees F. Grease a large baking sheet, set aside.",
+                            "name": "Preheat oven to 400 degrees F. Grease a large baking sheet, set aside.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-2-0"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "Place meatballs on a greased baking sheet evenly spread out.",
+                            "name": "Place meatballs on a greased baking sheet evenly spread out.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-2-1"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "Bake in preheated oven for 10-15 minutes. Meatballs should reach an internal temperature of 160 degrees F.",
+                            "name": "Bake in preheated oven for 10-15 minutes. Meatballs should reach an internal temperature of 160 degrees F.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-2-2"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "Serve with pasta sauce, over noodles, etc.",
+                            "name": "Serve with pasta sauce, over noodles, etc.",
+                            "url": "https://joyfoodsunshine.com/meatballs/#wprm-recipe-37136-step-2-3"
+                        }
+                    ]
                 }
-            ],
-            "prepTime": "PT20M",
-            "cookTime": "PT15M",
-            "totalTime": "PT35M",
-            "recipeYield": [
-                "4",
-                "4 servings"
             ],
             "aggregateRating": {
                 "@type": "AggregateRating",
-                "reviewCount": "1060",
-                "ratingValue": "4.8"
+                "ratingValue": "5",
+                "ratingCount": "1"
             },
-            "author": {
-                "@type": "Person",
-                "name": "Ali"
+            "recipeCategory": [
+                "Appetizer",
+                "Main Course"
+            ],
+            "recipeCuisine": [
+                "American",
+                "Italian"
+            ],
+            "suitableForDiet": [
+                "https://schema.org/GlutenFreeDiet"
+            ],
+            "keywords": "homemade meatballs, how to make meatballs, italian meatballs, meatball recipe, meatballs, meatballs recipe",
+            "nutrition": {
+                "@type": "NutritionInformation",
+                "servingSize": "2 meatballs",
+                "calories": "144 kcal",
+                "carbohydrateContent": "4 g",
+                "proteinContent": "9 g",
+                "fatContent": "10 g",
+                "saturatedFatContent": "4 g",
+                "transFatContent": "1 g",
+                "cholesterolContent": "44 mg",
+                "sodiumContent": "342 mg",
+                "fiberContent": "1 g",
+                "sugarContent": "1 g",
+                "unsaturatedFatContent": "5 g"
             },
-            "video": {
-                "@context": "http://schema.org",
-                "@type": "VideoObject",
-                "name": "Baked Chicken Breasts Recipe",
-                "description": "Learn how to cook chicken breasts with this delicious, juicy, tender, and fool-proof baked chicken breast recipe! Perfect for easy dinners, meal prep, or freezing for later.",
-                "contentUrl": "https://content.jwplatform.com/videos/qCf7O5FC.mp4",
-                "thumbnailUrl": [
-                    "https://content.jwplatform.com/thumbs/qCf7O5FC-720.jpg"
-                ],
-                "uploadDate": "2019-03-24"
+            "@id": "https://joyfoodsunshine.com/meatballs/#recipe",
+            "isPartOf": {
+                "@id": "https://joyfoodsunshine.com/meatballs/#article"
             },
-            "review": [
-                {
-                    "@type": "Review",
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5"
-                    },
-                    "author": {
-                        "@type": "Person",
-                        "name": "A Bobonick"
-                    },
-                    "datePublished": "2021-07-05",
-                    "reviewBody": "Best chicken I have ever made in my 69 years. We used Zatar  as the seasoning on top. So moist!"
-                },
-                {
-                    "@type": "Review",
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5"
-                    },
-                    "author": {
-                        "@type": "Person",
-                        "name": "Mary Ann Krykewycz"
-                    },
-                    "datePublished": "2021-07-10",
-                    "reviewBody": "Best chicken breast I\u2019ve ever made. I usually over cook chicken breast but haven\u2019t as yet. Simple to make!!!"
-                },
-                {
-                    "@type": "Review",
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5"
-                    },
-                    "author": {
-                        "@type": "Person",
-                        "name": "Donna"
-                    },
-                    "datePublished": "2021-07-18",
-                    "reviewBody": "EXCELLENT - served to company when terrible weather made grilling impossible.\r\nDid NOT brine, but pounded the chicken about 3/8\"-1/2\" thickness.\r\nUsed foil lined sheet pan, and def use the smoked paprika.\r\nPrepped completely and left sheet pan in fridge until ready to cook.\r\nServed with mango-peach salsa.\r\nVery tender and tasty.  Great leftovers as well!\r\n\""
-                },
-                {
-                    "@type": "Review",
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5"
-                    },
-                    "author": {
-                        "@type": "Person",
-                        "name": "Shana Lewandowski"
-                    },
-                    "datePublished": "2021-08-03",
-                    "reviewBody": "So happy I found this recipe! Perfect chicken every time!"
-                },
-                {
-                    "@type": "Review",
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5"
-                    },
-                    "author": {
-                        "@type": "Person",
-                        "name": "MW"
-                    },
-                    "datePublished": "2021-08-05",
-                    "reviewBody": "I tried this recipe. Wasn\u2019t impressed..  UNTIL, I tried it microwaved the next day. Best baked boneless sk…"
-                }
-            ]
+            "mainEntityOfPage": "https://joyfoodsunshine.com/meatballs/#webpage"
         }
     ]
 }

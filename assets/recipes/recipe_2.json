@@ -3,42 +3,46 @@
     "@graph": [
         {
             "@type": "Organization",
-            "@id": "https://preppykitchen.com/#organization",
-            "name": "Preppy Kitchen",
-            "url": "https://preppykitchen.com/",
+            "@id": "https://www.recipetineats.com/#organization",
+            "name": "RecipeTin Eats",
+            "url": "https://www.recipetineats.com/",
             "sameAs": [
-                "https://www.facebook.com/PreppyKitchen/",
-                "https://instagram.com/preppykitchen/",
-                "https://www.youtube.com/c/preppykitchen",
-                "https://www.pinterest.com/pin/47217496071606667/",
-                "https://twitter.com/preppy_kitchen"
+                "https://www.facebook.com/RecipeTinEats",
+                "http://instagram.com/recipe_tin",
+                "https://www.linkedin.com/in/nagi-maehashi-9779648b",
+                "https://www.youtube.com/c/recipetineats",
+                "http://www.pinterest.com/recipetin/"
             ],
             "logo": {
                 "@type": "ImageObject",
-                "@id": "https://preppykitchen.com/#logo",
+                "@id": "https://www.recipetineats.com/#logo",
                 "inLanguage": "en-US",
-                "url": "https://preppykitchen.com/wp-content/uploads/2020/11/PreppyKitchen_logo_sqoriginal.png",
-                "width": 800,
-                "height": 800,
-                "caption": "Preppy Kitchen"
+                "url": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+                "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+                "width": 2591,
+                "height": 347,
+                "caption": "RecipeTin Eats"
             },
             "image": {
-                "@id": "https://preppykitchen.com/#logo"
+                "@id": "https://www.recipetineats.com/#logo"
             }
         },
         {
             "@type": "WebSite",
-            "@id": "https://preppykitchen.com/#website",
-            "url": "https://preppykitchen.com/",
-            "name": "Preppy Kitchen",
-            "description": "Sweet and Savory Recipes to Share and Enjoy",
+            "@id": "https://www.recipetineats.com/#website",
+            "url": "https://www.recipetineats.com/",
+            "name": "RecipeTin Eats",
+            "description": "Fast Prep, Big Flavours",
             "publisher": {
-                "@id": "https://preppykitchen.com/#organization"
+                "@id": "https://www.recipetineats.com/#organization"
             },
             "potentialAction": [
                 {
                     "@type": "SearchAction",
-                    "target": "https://preppykitchen.com/?s={search_term_string}",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://www.recipetineats.com/?s={search_term_string}"
+                    },
                     "query-input": "required name=search_term_string"
                 }
             ],
@@ -46,233 +50,259 @@
         },
         {
             "@type": "ImageObject",
-            "@id": "https://preppykitchen.com/french-macarons/#primaryimage",
+            "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#primaryimage",
             "inLanguage": "en-US",
-            "url": "https://preppykitchen.com/wp-content/uploads/2020/04/French-Macarons-feature-1200.jpg",
-            "width": 1200,
-            "height": 1700,
-            "caption": "A group of pink macarons on a serving tray next to flowers"
+            "url": "https://www.recipetineats.com/wp-content/uploads/2017/06/Pumpkin-Gnocchi-a.jpg",
+            "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2017/06/Pumpkin-Gnocchi-a.jpg",
+            "width": 964,
+            "height": 1350,
+            "caption": "This Easy Pumpkin Gnocchi is, true to its name, easy to make. Pillowy soft inside, golden brown on the outside, and bathed in a classic Sage Butter sauce. recipetineats.com"
         },
         {
             "@type": "WebPage",
-            "@id": "https://preppykitchen.com/french-macarons/#webpage",
-            "url": "https://preppykitchen.com/french-macarons/",
-            "name": "Macaron Recipe - Preppy Kitchen",
+            "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#webpage",
+            "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/",
+            "name": "Easy Pumpkin Gnocchi with Sage Butter Sauce | RecipeTin Eats",
             "isPartOf": {
-                "@id": "https://preppykitchen.com/#website"
+                "@id": "https://www.recipetineats.com/#website"
             },
             "primaryImageOfPage": {
-                "@id": "https://preppykitchen.com/french-macarons/#primaryimage"
+                "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#primaryimage"
             },
-            "datePublished": "2020-04-23T21:39:43+00:00",
-            "dateModified": "2020-04-24T01:58:23+00:00",
-            "description": "This easy to follow macaron recipe, makes a special and delicious treat for your friends and family. I've packed all my tips into this post to help you out!",
+            "datePublished": "2017-06-23T08:33:00+00:00",
+            "dateModified": "2021-06-22T03:14:21+00:00",
+            "description": "This Pumpkin Gnocchi is soft and pillowy on the inside, golden on the outside, and it is unbelievably simple to make. The secret is ricotta!",
             "breadcrumb": {
-                "@id": "https://preppykitchen.com/french-macarons/#breadcrumb"
+                "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#breadcrumb"
             },
             "inLanguage": "en-US",
             "potentialAction": [
                 {
                     "@type": "ReadAction",
                     "target": [
-                        "https://preppykitchen.com/french-macarons/"
+                        "https://www.recipetineats.com/easy-pumpkin-gnocchi/"
                     ]
                 }
             ]
         },
         {
             "@type": "BreadcrumbList",
-            "@id": "https://preppykitchen.com/french-macarons/#breadcrumb",
+            "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#breadcrumb",
             "itemListElement": [
                 {
                     "@type": "ListItem",
                     "position": 1,
-                    "item": {
-                        "@type": "WebPage",
-                        "@id": "https://preppykitchen.com/",
-                        "url": "https://preppykitchen.com/",
-                        "name": "Home"
-                    }
+                    "name": "Home",
+                    "item": "https://www.recipetineats.com/"
                 },
                 {
                     "@type": "ListItem",
                     "position": 2,
-                    "item": {
-                        "@type": "WebPage",
-                        "@id": "https://preppykitchen.com/category/recipes/",
-                        "url": "https://preppykitchen.com/category/recipes/",
-                        "name": "Recipes"
-                    }
+                    "name": "Collections",
+                    "item": "https://www.recipetineats.com/category/collections/"
                 },
                 {
                     "@type": "ListItem",
                     "position": 3,
-                    "item": {
-                        "@type": "WebPage",
-                        "@id": "https://preppykitchen.com/category/recipes/desserts/",
-                        "url": "https://preppykitchen.com/category/recipes/desserts/",
-                        "name": "Desserts"
-                    }
+                    "name": "Winter Warmers",
+                    "item": "https://www.recipetineats.com/category/collections/winter-recipe-collection/"
                 },
                 {
                     "@type": "ListItem",
                     "position": 4,
-                    "item": {
-                        "@type": "WebPage",
-                        "@id": "https://preppykitchen.com/category/recipes/desserts/cookies/",
-                        "url": "https://preppykitchen.com/category/recipes/desserts/cookies/",
-                        "name": "Cookies"
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 5,
-                    "item": {
-                        "@type": "WebPage",
-                        "@id": "https://preppykitchen.com/french-macarons/",
-                        "url": "https://preppykitchen.com/french-macarons/",
-                        "name": "Macaron Recipe"
-                    }
+                    "name": "Easy Pumpkin Gnocchi with Sage Butter Sauce"
                 }
             ]
         },
         {
             "@type": "Article",
-            "@id": "https://preppykitchen.com/french-macarons/#article",
+            "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#article",
             "isPartOf": {
-                "@id": "https://preppykitchen.com/french-macarons/#webpage"
+                "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#webpage"
             },
             "author": {
-                "@id": "https://preppykitchen.com/#/schema/person/26390e871ce5a252a5ab2b095ad87099"
+                "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9"
             },
-            "headline": "Macaron Recipe",
-            "datePublished": "2020-04-23T21:39:43+00:00",
-            "dateModified": "2020-04-24T01:58:23+00:00",
-            "commentCount": 210,
+            "headline": "Easy Pumpkin Gnocchi with Sage Butter Sauce",
+            "datePublished": "2017-06-23T08:33:00+00:00",
+            "dateModified": "2021-06-22T03:14:21+00:00",
+            "wordCount": 1742,
+            "commentCount": 173,
             "publisher": {
-                "@id": "https://preppykitchen.com/#organization"
+                "@id": "https://www.recipetineats.com/#organization"
             },
             "image": {
-                "@id": "https://preppykitchen.com/french-macarons/#primaryimage"
+                "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#primaryimage"
             },
-            "keywords": "chocolate macarons,coffee macarons,how to make macarons,macaron,macaron recipe",
-            "articleSection": "Cookies,Desserts,Recipes",
+            "thumbnailUrl": "https://www.recipetineats.com/wp-content/uploads/2017/06/Pumpkin-Gnocchi-a.jpg",
+            "articleSection": [
+                "Italian Recipes",
+                "Pasta Recipes",
+                "Pumpkin recipes",
+                "Winter Warmers"
+            ],
             "inLanguage": "en-US",
             "potentialAction": [
                 {
                     "@type": "CommentAction",
                     "name": "Comment",
                     "target": [
-                        "https://preppykitchen.com/french-macarons/#respond"
+                        "https://www.recipetineats.com/easy-pumpkin-gnocchi/#respond"
                     ]
                 }
             ]
         },
         {
             "@type": "Person",
-            "@id": "https://preppykitchen.com/#/schema/person/26390e871ce5a252a5ab2b095ad87099",
-            "name": "John Kanell",
+            "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9",
+            "name": "Nagi",
             "image": {
                 "@type": "ImageObject",
-                "@id": "https://preppykitchen.com/#personlogo",
+                "@id": "https://www.recipetineats.com/#personlogo",
                 "inLanguage": "en-US",
-                "url": "https://secure.gravatar.com/avatar/64d4ebe28bf8a4499dc7a3699adfebb2?s=96&d=mm&r=g",
-                "caption": "John Kanell"
+                "url": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+                "contentUrl": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+                "caption": "Nagi"
             },
+            "description": "I believe you can make great food with everyday ingredients even if you\u2019re short on time and cost conscious. You just need to cook clever and get creative!",
             "sameAs": [
-                "https://preppykitchen.com/meet-john/",
-                "https://www.facebook.com/PreppyKitchen"
+                "http:////www.recipetineats.com/about-me/"
             ]
         },
         {
             "@context": "http://schema.org/",
             "@type": "Recipe",
-            "name": "Macaron recipe",
+            "name": "Easy Pumpkin Gnocchi with Sage Butter Sauce",
             "author": {
                 "@type": "Person",
-                "name": "John Kanell"
+                "name": "Nagi"
             },
-            "description": "These elegant, delicate, and delicious french macarons are the perfect treat for your next get together!",
-            "datePublished": "2020-04-23T14:39:43+00:00",
+            "description": "VIDEO ABOVE.\u00a0This is a super easy way to make gnocchi and the secret ingredient is ricotta which keeps the gnocchi soft and pillowy inside. Much easier than the classic recipe made with potato. It tastes unbelievable - soft inside, touch of sweet, golden crisp surface and finished with a classic Sage Butter Sauce! Makes 2 very generous servings or 4 as a starter.",
+            "datePublished": "2017-06-23T18:33:00+00:00",
             "image": [
-                "https://preppykitchen.com/wp-content/uploads/2020/04/Macaron-Recipe-1200.jpg",
-                "https://preppykitchen.com/wp-content/uploads/2020/04/Macaron-Recipe-1200-500x500.jpg",
-                "https://preppykitchen.com/wp-content/uploads/2020/04/Macaron-Recipe-1200-500x375.jpg",
-                "https://preppykitchen.com/wp-content/uploads/2020/04/Macaron-Recipe-1200-480x270.jpg"
+                "https://www.recipetineats.com/wp-content/uploads/2017/06/Pumpkin-Gnocchi-a.jpg",
+                "https://www.recipetineats.com/wp-content/uploads/2017/06/Pumpkin-Gnocchi-a.jpg?w=500&h=500&crop=1",
+                "https://www.recipetineats.com/wp-content/uploads/2017/06/Pumpkin-Gnocchi-a.jpg?w=500&h=375&crop=1",
+                "https://www.recipetineats.com/wp-content/uploads/2017/06/Pumpkin-Gnocchi-a.jpg?w=480&h=270&crop=1"
             ],
-            "video": {
-                "name": "French Macaron Recipe | ALL the Tips and Tricks!",
-                "description": "This French macaron recipe makes a batch of the most dainty, delicate, and delicious cookies that will float right into your mouth and disappear. I\u2019ve packed ALL my tips into this video to help you out because no there really isn't any one foolproof, easy macaron recipe, they are finicky little guys.... If your macarons aren't picture perfect they will still be delicious, so grab you ingredents and let's get baking!\n\nRecipe: https://preppykitchen.com/french-macarons/\n\nTOP TIPS FOR MAKING FRENCH MACARONS\nTHE MERINGUE!!!! That meringue HAS TO BE STIFF! I had no idea French meringue could be whipped to such a thick marshmallowy consistency but all it takes is a bit of extra whisking. You\u2019ll notice the meringue start to fill the whisk when you\u2019re getting close to the right stage.\nAge your egg whites! Separate the eggs, place the whites in a clean glass, cover with plastic wrap and let them hang out in the fridge for a few days before using. This will dehydrate them and make them perfect for macarons.\nSift, Sift, SIFT! Those larger pieces of almond flour will mar the surface of your macarons. Best practice is to sift then whiz in the food processor and repeat two more times. Discard the larger particles, don\u2019t try to press them through the sieve.\nThe mixing will take some practice, you will fold and fold the batter and then use the spatula to GENTLY press the batter against the bowl. You want to remove some of the bubbles but not to many\u2026 Continue this until it reaches a thick \u201clava\u201d consistency. It should slowly fall off the spatula in ribbons and be able to form a figure eight without breaking.\nPipe the macarons perpendicular to the surface. If your tip is pointing a bit in any particular direction when you pipe the macarons might be oblong or malformed.\nAdd your coloring to the meringue after it reaches the soft peak stage.\nWhen you are finishing the piping motion stop squeezing the bag and pull up with a circular motion.\nThe macarons will be best after 2-3 days resting in the fridge.\nIf you over-bake the shells and they\u2019re too crisp, brush the bottom with some milk before assembly to soften them up.\n\nSUBSCRIBE \u25bahttps://www.youtube.com/channel/UCTvYEid8tmg0jqGPDkehc_Q?sub_confirmation=1\n--------------------------------------------------------------------------\nADD ME ON:\nFacebook: http://www.facebook.com/PreppyKitchen\nInstagram: http://instagram.com/PreppyKitchen\nPinterest: https://www.pinterest.com/PreppyKitchen\nWebsite: http://www.PreppyKitchen.com",
-                "uploadDate": "2019-04-16T14:11:14+00:00",
-                "duration": "PT18M24S",
-                "thumbnailUrl": "https://i.ytimg.com/vi/-Yz78dFgjKQ/hqdefault.jpg",
-                "contentUrl": "https://youtu.be/-Yz78dFgjKQ",
-                "embedUrl": "https://www.youtube.com/embed/-Yz78dFgjKQ?feature=oembed",
-                "@type": "VideoObject"
-            },
             "recipeYield": [
-                "36",
-                "36 Macarons"
+                "4"
             ],
-            "prepTime": "PT15M",
-            "cookTime": "PT25M",
-            "totalTime": "PT40M",
+            "prepTime": "PT20M",
+            "cookTime": "PT10M",
+            "totalTime": "PT30M",
             "recipeIngredient": [
-                "100 g egg whites (room temperature 3 large eggs)",
-                "140 g almond flour (1 1/2 cups)",
-                "90 g granulated sugar (just under 1/2 cup)",
-                "130 g powdered sugar (1 cup)",
-                "1 tsp vanilla (5mL)",
-                "1/4 tsp cream of tartar (800mg)",
-                "1 cup unsalted butter softened (226g)",
-                "5  egg yolks",
-                "1/2 cup granulated sugar (100g)",
-                "1 tsp vanilla",
-                "3 tbsp water (30mL)",
-                "1 pinch salt"
+                "300 g /10oz  fresh pumpkin (, steamed or boiled then mashed or 2/3 cup canned pumpkin puree)",
+                "1/2 cup ricotta (, full fat (Note 2))",
+                "1 1/4 cup plain flour ((all purpose flour), plus more for dusting)",
+                "1/3 cup parmesan cheese (, finely grated)",
+                "1  egg",
+                "1/4 tsp salt",
+                "Black pepper",
+                "1 tsp olive oil",
+                "50g / 3.5 tbsp  butter ((Note 3))",
+                "20  fresh sage leaves",
+                "Black pepper ((and salt if needed))",
+                "Parmesan"
             ],
             "recipeInstructions": [
                 {
+                    "@type": "HowToStep",
+                    "text": "Line a colander with 4 sheets of paper towel. Spread the fresh mashed pumpkin or canned puree onto the paper towel (see photo in post) then leave for 5 minutes.",
+                    "name": "Line a colander with 4 sheets of paper towel. Spread the fresh mashed pumpkin or canned puree onto the paper towel (see photo in post) then leave for 5 minutes.",
+                    "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-0-0"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Measure out 1/2 cup of pumpkin puree (scale up if you scaled recipe, Note 6).",
+                    "name": "Measure out 1/2 cup of pumpkin puree (scale up if you scaled recipe, Note 6).",
+                    "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-0-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Place pumpkin and remaining Gnocchi ingredients in a bowl. Use a wooden spoon to mix well - it should be a soft dough. (Note 4)",
+                    "name": "Place pumpkin and remaining Gnocchi ingredients in a bowl. Use a wooden spoon to mix well - it should be a soft dough. (Note 4)",
+                    "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-0-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Dust a work surface with flour, tip dough out, sprinkle with flour then pat into log shape.",
+                    "name": "Dust a work surface with flour, tip dough out, sprinkle with flour then pat into log shape.",
+                    "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-0-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Cut into 6 pieces. Roll into 1.7cm / 2/3\" ropes, then cut into squares (Note 5).",
+                    "name": "Cut into 6 pieces. Roll into 1.7cm / 2/3\" ropes, then cut into squares (Note 5).",
+                    "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-0-4"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Optional: Use a fork to press down lightly on the cut side of the gnocchi.",
+                    "name": "Optional: Use a fork to press down lightly on the cut side of the gnocchi.",
+                    "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-0-5"
+                },
+                {
                     "@type": "HowToSection",
-                    "name": "For the Macarons:",
+                    "name": "Cooking",
                     "itemListElement": [
                         {
                             "@type": "HowToStep",
-                            "text": "Sift the confectioners sugar and almond flour into a bowl.",
-                            "name": "Sift the confectioners sugar and almond flour into a bowl.",
-                            "url": "https://preppykitchen.com/french-macarons/#wprm-recipe-3336-step-0-0"
+                            "text": "Bring a large pot of water to the boil.",
+                            "name": "Bring a large pot of water to the boil.",
+                            "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-1-0"
                         },
                         {
                             "@type": "HowToStep",
-                            "text": "Add the room temperature egg whites into a very clean bowl.",
-                            "name": "Add the room temperature egg whites into a very clean bowl.",
-                            "url": "https://preppykitchen.com/french-macarons/#wprm-recipe-3336-step-0-1"
+                            "text": "Scrape gnocchi onto parchment paper, then tip into water. Cook for 1 minute or until all the gnocchi rises to the surface (means it is cooked), then drain.",
+                            "name": "Scrape gnocchi onto parchment paper, then tip into water. Cook for 1 minute or until all the gnocchi rises to the surface (means it is cooked), then drain.",
+                            "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-1-1"
                         },
                         {
                             "@type": "HowToStep",
-                            "text": "Using an electric mixer, whisk egg whites. Once they begin to foam add the cream of tartar and then SLOWLY add the granulated sugar.",
-                            "name": "Using an electric mixer, whisk egg whites. Once they begin to foam add the cream of tartar and then SLOWLY add the granulated sugar.",
-                            "url": "https://preppykitchen.com/french-macarons/#wprm-recipe-3336-step-0-2"
+                            "text": "Meanwhile, melt about 1 teaspoon of the butter plus oil in a large skillet over medium high heat. Add gnocchi and cook, shaking the pan, until the gnocchi is just starting to turn brown (about 1 1/2 minutes).",
+                            "name": "Meanwhile, melt about 1 teaspoon of the butter plus oil in a large skillet over medium high heat. Add gnocchi and cook, shaking the pan, until the gnocchi is just starting to turn brown (about 1 1/2 minutes).",
+                            "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-1-2"
                         },
                         {
                             "@type": "HowToStep",
-                            "text": "Add the food coloring (if desired) and vanilla then mix in. Continue to beat until stiff peaks form.",
-                            "name": "Add the food coloring (if desired) and vanilla then mix in. Continue to beat until stiff peaks form.",
-                            "url": "https://preppykitchen.com/french-macarons/#wprm-recipe-3336-step-0-3"
+                            "text": "Add remaining butter, once it melts, add sage leaves. Stir and cook for 2 1/2 minutes or until gnocchi is golden, sage is crisp and butter is slightly browned. Add salt if you used unsalted butter.",
+                            "name": "Add remaining butter, once it melts, add sage leaves. Stir and cook for 2 1/2 minutes or until gnocchi is golden, sage is crisp and butter is slightly browned. Add salt if you used unsalted butter.",
+                            "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-1-3"
                         },
                         {
                             "@type": "HowToStep",
-                            "text": "Begin folding in the 1/3 of the dry ingredients.",
-                            "name": "Begin folding in the 1/3 of the dry ingredients.",
-                            "url": "https://preppykitchen.com/french-macarons/#wprm-recipe-3336-step-0-4"
-                        },
-                        {
-                            "@type": "HowToStep",
-                            "text": "Be careful to add the remai…"
+                            "text": "Serve immediately, garnished with parmesan and pepper.",
+                            "name": "Serve immediately, garnished with parmesan and pepper.",
+                            "url": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#wprm-recipe-21603-step-1-4"
                         }
                     ]
                 }
-            ]
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.84",
+                "ratingCount": "30"
+            },
+            "recipeCategory": [
+                "Mains",
+                "Starter"
+            ],
+            "recipeCuisine": [
+                "Italian",
+                "Western"
+            ],
+            "keywords": "gnocchi recipe, homemade gnocchi, Pumpkin gnocchi",
+            "nutrition": {
+                "@type": "NutritionInformation",
+                "servingSize": "126 g",
+                "calories": "341 kcal"
+            },
+            "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#recipe",
+            "isPartOf": {
+                "@id": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#article"
+            },
+            "mainEntityOfPage": "https://www.recipetineats.com/easy-pumpkin-gnocchi/#webpage"
         }
     ]
 }
