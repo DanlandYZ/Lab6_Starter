@@ -1,0 +1,313 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://www.gimmesomeoven.com/#organization",
+            "name": "Gimme Some Oven",
+            "url": "https://www.gimmesomeoven.com/",
+            "sameAs": [
+                "https://www.facebook.com/GimmeSomeOvenBlog/",
+                "https://www.instagram.com/gimmesomeoven/",
+                "https://www.linkedin.com/in/aliebright/",
+                "https://www.youtube.com/user/gimmesomeovenblog",
+                "https://www.pinterest.com/gimmesomeoven/",
+                "https://twitter.com/gimmesomeoven"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://www.gimmesomeoven.com/#logo",
+                "inLanguage": "en-US",
+                "url": "https://www.gimmesomeoven.com/wp-content/uploads/2021/09/Logo-square.png",
+                "contentUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2021/09/Logo-square.png",
+                "width": 410,
+                "height": 410,
+                "caption": "Gimme Some Oven"
+            },
+            "image": {
+                "@id": "https://www.gimmesomeoven.com/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.gimmesomeoven.com/#website",
+            "url": "https://www.gimmesomeoven.com/",
+            "name": "Gimme Some Oven",
+            "description": "Celebrating Delicious and Easy Recipes",
+            "publisher": {
+                "@id": "https://www.gimmesomeoven.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://www.gimmesomeoven.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3.jpg",
+            "contentUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3.jpg",
+            "width": 1392,
+            "height": 2088,
+            "caption": "Baked Chicken Breast Recipe"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#webpage",
+            "url": "https://www.gimmesomeoven.com/baked-chicken-breast/",
+            "name": "Baked Chicken Breast | Gimme Some Oven",
+            "isPartOf": {
+                "@id": "https://www.gimmesomeoven.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#primaryimage"
+            },
+            "datePublished": "2018-09-10T09:02:25+00:00",
+            "dateModified": "2021-05-15T14:28:22+00:00",
+            "description": "A simple 5-step method for how to make the most juicy, tender and flavorful baked chicken breasts. It's a total game-changer for how to bake chicken.",
+            "breadcrumb": {
+                "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://www.gimmesomeoven.com/baked-chicken-breast/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Gimme Some Oven",
+                    "item": "https://www.gimmesomeoven.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Baked Chicken Breasts"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#article",
+            "isPartOf": {
+                "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#webpage"
+            },
+            "author": {
+                "@id": "https://www.gimmesomeoven.com/#/schema/person/f2ec3b8956be0c3431af79ad7e71d6b5"
+            },
+            "headline": "Baked Chicken Breasts",
+            "datePublished": "2018-09-10T09:02:25+00:00",
+            "dateModified": "2021-05-15T14:28:22+00:00",
+            "wordCount": 1774,
+            "commentCount": 2997,
+            "publisher": {
+                "@id": "https://www.gimmesomeoven.com/#organization"
+            },
+            "image": {
+                "@id": "https://www.gimmesomeoven.com/baked-chicken-breast/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3.jpg",
+            "keywords": [
+                "chicken",
+                "garlic powder",
+                "paprika"
+            ],
+            "articleSection": [
+                "Chicken",
+                "Entrees / Main Dishes",
+                "Featured",
+                "Gluten-free"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://www.gimmesomeoven.com/baked-chicken-breast/#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://www.gimmesomeoven.com/#/schema/person/f2ec3b8956be0c3431af79ad7e71d6b5",
+            "name": "Ali",
+            "sameAs": [
+                "https://www.gimmesomeoven.com",
+                "https://twitter.com/gimmesomeoven"
+            ],
+            "url": "https://www.gimmesomeoven.com/author/ali/"
+        },
+        {
+            "@context": "https://schema.org/",
+            "@type": "Recipe",
+            "name": "Baked Chicken Breasts",
+            "description": "Learn how to make juicy, tender, delicious baked chicken breasts with this simple 5-step method.",
+            "image": [
+                "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3-225x225.jpg",
+                "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3-260x195.jpg",
+                "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3-320x180.jpg",
+                "https://www.gimmesomeoven.com/wp-content/uploads/2015/05/Oven-Baked-Chicken-Breast-Recipe-3.jpg"
+            ],
+            "url": "https://www.gimmesomeoven.com/baked-chicken-breast/",
+            "recipeIngredient": [
+                "4 boneless skinless chicken breasts, pounded to even thickness and brined in saltwater (*see easy instructions below)",
+                "1 Tablespoon melted butter or olive oil",
+                "1 teaspoon\u00a0kosher salt",
+                "1/2 teaspoon freshly-cracked\u00a0black pepper",
+                "1/2 teaspoon\u00a0garlic powder",
+                "1/2 teaspoon paprika (I prefer\u00a0smoked paprika)"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToStep",
+                    "text": "To brine your chicken breasts,\u00a0fill a large bowl with 1 quart of warm water and 1/4 cup kosher salt. \u00a0Stir to combine until most of the salt is absorbed. \u00a0Add the chicken breasts and let them sit in the mixture to brine for 15 minutes. \u00a0Or you can also\u00a0also cover the\u00a0bowl and refrigerate for up to 6 hours. \u00a0Remove the chicken breasts from the brine, rinse them\u00a0with cold water, then pat them\u00a0dry with some paper towels. \u00a0(However, if\u00a0the\u00a0chicken breasts you purchased have already been pre-brined in a sodium solution, skip this step.)",
+                    "name": "Brine the chicken",
+                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Preheat\u00a0oven to 450\u00b0F.",
+                    "name": "Heat the oven",
+                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Place the chicken breasts in a single layer in a large baking dish*. \u00a0Brush on both sides (turning once) evenly with the melted butter or olive oil.\u00a0 In a separate small bowl, whisk the salt, pepper, garlic powder and paprika until combined. \u00a0Then sprinkle the mixture evenly over the chicken on both sides.",
+                    "name": "Season the chicken",
+                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Bake for 15-18* minutes, or until the chicken is cooked through and no longer pink.\u00a0 Cooking time will depend on the thickness of the chicken breasts, so I recommend using a cooking thermometer to know exactly when it is fully cooked.\u00a0 The thickest part of the breast, it should be 165\u00b0F.\u00a0 (Or, if you want the chicken to be a little bit browned and crispier on top, you can turn the broiler on high\u00a0for the final 3-5 minutes and broil the chicken until it is cooked through and\u00a0golden on top. \u00a0Keep a close eye on the chicken so that it does not overcook and/or burn.)",
+                    "name": "Bake",
+                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-4"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Once the chicken is cooked, remove the pan from the oven, transfer the chicken to a clean plate, and loosely\u00a0tent the\u00a0plate with aluminum foil. \u00a0Let the chicken rest for at least 5-10 minutes.",
+                    "name": "Rest the chicken",
+                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-5"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Serve warm.\u00a0\u00a0Or, refrigerate in a sealed container for up to 3 days, or freeze for up to 3 months.",
+                    "name": "Serve",
+                    "url": "https://www.gimmesomeoven.com/baked-chicken-breast/#instruction-step-6"
+                }
+            ],
+            "prepTime": "PT20M",
+            "cookTime": "PT15M",
+            "totalTime": "PT35M",
+            "recipeYield": [
+                "4",
+                "4 servings"
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "1060",
+                "ratingValue": "4.8"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Ali"
+            },
+            "video": {
+                "@context": "http://schema.org",
+                "@type": "VideoObject",
+                "name": "Baked Chicken Breasts Recipe",
+                "description": "Learn how to cook chicken breasts with this delicious, juicy, tender, and fool-proof baked chicken breast recipe! Perfect for easy dinners, meal prep, or freezing for later.",
+                "contentUrl": "https://content.jwplatform.com/videos/qCf7O5FC.mp4",
+                "thumbnailUrl": [
+                    "https://content.jwplatform.com/thumbs/qCf7O5FC-720.jpg"
+                ],
+                "uploadDate": "2019-03-24"
+            },
+            "review": [
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "A Bobonick"
+                    },
+                    "datePublished": "2021-07-05",
+                    "reviewBody": "Best chicken I have ever made in my 69 years. We used Zatar  as the seasoning on top. So moist!"
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Mary Ann Krykewycz"
+                    },
+                    "datePublished": "2021-07-10",
+                    "reviewBody": "Best chicken breast I\u2019ve ever made. I usually over cook chicken breast but haven\u2019t as yet. Simple to make!!!"
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Donna"
+                    },
+                    "datePublished": "2021-07-18",
+                    "reviewBody": "EXCELLENT - served to company when terrible weather made grilling impossible.\r\nDid NOT brine, but pounded the chicken about 3/8\"-1/2\" thickness.\r\nUsed foil lined sheet pan, and def use the smoked paprika.\r\nPrepped completely and left sheet pan in fridge until ready to cook.\r\nServed with mango-peach salsa.\r\nVery tender and tasty.  Great leftovers as well!\r\n\""
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "Shana Lewandowski"
+                    },
+                    "datePublished": "2021-08-03",
+                    "reviewBody": "So happy I found this recipe! Perfect chicken every time!"
+                },
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "MW"
+                    },
+                    "datePublished": "2021-08-05",
+                    "reviewBody": "I tried this recipe. Wasn\u2019t impressed..  UNTIL, I tried it microwaved the next day. Best baked boneless sk…"
+                }
+            ]
+        }
+    ]
+}

@@ -1,8 +1,9 @@
 class RecipeCard extends HTMLElement {
   constructor() {
     // Part 1 Expose - TODO
-
+    super();
     // You'll want to attach the shadow DOM here
+    const shadow = this.attachShadow({ mode: 'open' });
   }
 
   set data(data) {
@@ -84,6 +85,7 @@ class RecipeCard extends HTMLElement {
       }
     `;
     styleElem.innerHTML = styles;
+    this.shadowRoot.appendChild(styleElem); 
 
     // Here's the root element that you'll want to attach all of your other elements to
     const card = document.createElement('article');
@@ -100,6 +102,102 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
+
+    // find img first 
+    let img_ele = document.createElement('img');
+    img_ele.setAttribute('alt', searchForKey(data, "headline"));
+    let img_search = searchForKey(data, 'thumbnailUrl');
+    // console.log(img_search);
+    img_ele.src = img_search;
+    // console.log("img_ele= ", img_ele);
+    card.appendChild(img_ele); 
+
+    // first p, class = "title"
+    let p_1 = document.createElement("p");
+    p_1.setAttribute('class', 'title');
+    let link_1 = p_1.appendChild(document.createElement('a'));
+    link_1.setAttribute('href', getUrl(data));
+    link_1.textContent = searchForKey(data, 'headline'); 
+    // console.log("link_1", link_1.href);
+    // console.log(p_1);
+    card.appendChild(p_1); 
+
+    // second p, class = "organization"
+    let p_2 = document.createElement('p');
+    p_2.setAttribute('class', 'organization');
+    // get organization
+    p_2.textContent =getOrganization(data);
+    // console.log("p_2", p_2);
+    card.appendChild(p_2); 
+
+    // 3. div class = rating
+    let div_1 = document.createElement('div');
+    div_1.setAttribute('class', 'rating');
+    let rating_value = searchForKey(data, 'ratingValue')
+    let rating_count = searchForKey(data, 'ratingCount')
+    // console.log('rating_value', rating_value);
+    // console.log('rating_count', rating_count);
+
+    // 3.1 rating value
+    let rating_value_span = div_1.appendChild(document.createElement('span'));
+
+
+    if (rating_value === undefined) {
+      rating_value_span.textContent = "No Reviews";
+    }
+    else {
+      var img_rating = div_1.appendChild(document.createElement('img'));
+      var amount_reviews_span = div_1.appendChild(document.createElement('span'));
+      rating_value_span.textContent = rating_value;
+
+      // 3.2 crossponding star image
+      if (Math.round(rating_value) == 5) {
+        img_rating.src = "assets/images/icons/5-star.svg";
+        img_rating.alt = "5 stars";
+      } else if (Math.round(rating_value) == 4) {
+        img_rating.src = "assets/images/icons/4-star.svg";
+        img_rating.alt = "4 stars";
+      } else if (Math.round(rating_value) == 3) {
+        img_rating.src = "assets/images/icons/3-star.svg";
+        img_rating.alt = "3 stars";
+      } else if (Math.round(rating_value) == 2) {
+        img_rating.src = "assets/images/icons/2-star.svg";
+        img_rating.alt = "2 stars";
+      } else if (Math.round(rating_value) == 1) {
+        img_rating.src = "assets/images/icons/1-star.svg";
+        img_rating.alt = "1 stars";
+      } else {
+        img_rating.src = "assets/images/icons/0-star.svg";
+        img_rating.alt = "0 stars";
+      }
+
+      // console.log("image rating", img_rating);
+      // populate third span element
+      amount_reviews_span.textContent = "(" + rating_count + ")";
+
+    }
+    // console.log("div", div_1);
+    card.appendChild(div_1); 
+
+    // 4. time 
+    let time_ele = document.createElement('time');
+    let found_time_in_data = searchForKey(data, 'totalTime');
+    let time_value = convertTime(found_time_in_data); 
+    time_ele.textContent = time_value; 
+    // console.log("time_ele: ", time_ele); 
+    card.append(time_ele); 
+
+
+    // 5. ingredient list
+    let p_ingredient = document.createElement('p'); 
+    p_ingredient.setAttribute('class', "ingredients"); 
+    let recipe_ingredient = createIngredientList(searchForKey(data, 'recipeIngredient')); 
+    // console.log("ingredient list: ", recipe_ingredient); 
+    p_ingredient.textContent = recipe_ingredient; 
+    card.appendChild(p_ingredient); 
+
+    this.shadowRoot.appendChild(card); 
+  
   }
 }
 
